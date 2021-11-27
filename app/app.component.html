@@ -1,0 +1,44 @@
+<!-- Main App Component Page for SWE 645 Student Survey App -->
+<!-- By Bruce Long, Samir Yuja, and Vidya Kapadia - 3 November 2021 -->
+
+<!-- Header -->
+<header>
+<div class="toolbar" text-align: center>
+  <span><h1>SWE 645 Student Survey App</h1></span>
+    <div class="spacer"></div>
+</div>
+</header>
+
+<div class="content" role="main">
+
+  <!-- Buttons -->
+  <h2>Student Survey Links</h2>
+  <p>Click below to fill out a survey, or to view all surveys submitted to date:</p>
+
+  <div class="card-container">
+    <a class="card" routerLink = 'survey-form'>
+      <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg>
+      <span>Student Survey Form</span>
+      <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+    </a>
+
+    <a class="card" routerLink = 'show-results'>
+      <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg>
+      <span>View Survey Results</span>
+      <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+    </a>
+
+  </div>
+
+  <!-- Using the router-outlet tag to specify where content will display
+       when link to component is clicked -->
+
+  <router-outlet></router-outlet>
+
+
+  <!-- Footer -->
+  <footer>
+  </footer>
+
+
+</div>

@@ -1,0 +1,51 @@
+
+/* Style Sheet of Student Survey App for GMU SWE 645 */
+/* By Bruce Long, Samir Yuja, and Vidya Kapadia - 3 November 2021 */
+
+        /* Body */
+        body {
+            background-color: #05c4ba;
+            font-family: Optima;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Form */
+        form {
+            background-color: #fff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* form-control class */
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+
+        /* form-control label */
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        /* form-control input, select, textarea */
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+
+        /* form-control radio button and checkbox */
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
